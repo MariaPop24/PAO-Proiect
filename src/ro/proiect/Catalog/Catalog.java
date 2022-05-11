@@ -50,7 +50,6 @@ public class Catalog {
                         int numar = a.citire_numar_matricol();
 
                         student_service.adauga_student(new Student(name, prenume, numar));
-                        student_service.f();
                     }
                     catch (Exception e) {
                         System.out.println("Eroarea: " + e.getMessage());
